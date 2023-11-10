@@ -8,6 +8,7 @@ export default {
         s_deepPurple: "#33032F",
         s_purple: "#531253",
         s_spaceBlue: "#2E31C7",
+        s_deepBlue: "#0B132B",
         s_yellow: "#F3B61F",
         s_textGray: "#333",
       },

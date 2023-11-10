@@ -1,8 +1,8 @@
 function App() {
   return (
     <>
-      <div className="bg-[#333]">
-        <div className="banner w-full  flex bg-[url('/space.jpg')] bg-no-repeat bg-cover justify-center">
+      <div className="bg-s_deepBlue">
+        <div className="banner w-full flex bg-[url('/space.jpg')] bg-no-repeat bg-cover justify-center">
           <div className="banner__wrapper flex flex-col-reverse md:flex-row items-center justify-between md:px-10 lg:px-20 min-h-screen md:min-h-[600px] w-full max-w-[1366px] py-6">
             <div className="banner__text flex flex-col gap-2 justify-center w-full md:w-1/2 h-full px-4 md:px-0">
               <div className="banner__text__title  font-black text-3xl text-white drop-shadow-[0_0_10px_#1347f3]">
@@ -34,6 +34,58 @@ function App() {
                 src="/chill_astronaut.png"
                 alt="Astronaut in the moon."
               />
+            </div>
+          </div>
+        </div>
+        <div className="highlight w-full flex justify-center">
+          <div className="highlight__wrapper min-h-[150px] md:px-10 lg:px-20 flex flex-col md:flex-row justify-center items-center w-full max-w-[1366px]">
+            <div className="highlight__item flex flex-col gap-4 text-center p-4">
+              <div className="highlight__item__title text-white font-bold text-2xl ">
+                <h4>Dreams</h4>
+              </div>
+              <hr />
+              <div className="highlight__item__desc text-white">
+                <span>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Porro, eveniet?
+                </span>
+              </div>
+            </div>
+            <div className="highlight__item flex flex-col gap-4 text-center p-4">
+              <div className="highlight__item__title text-white font-bold text-2xl ">
+                <h4>Ambitions</h4>
+              </div>
+              <hr />
+              <div className="highlight__item__desc text-white">
+                <span>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Porro, eveniet?
+                </span>
+              </div>
+            </div>
+            <div className="highlight__item flex flex-col gap-4 text-center p-4">
+              <div className="highlight__item__title text-white font-bold text-2xl ">
+                <h4>Hard Works</h4>
+              </div>
+              <hr />
+              <div className="highlight__item__desc text-white">
+                <span>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Porro, eveniet?
+                </span>
+              </div>
+            </div>
+            <div className="highlight__item flex flex-col gap-4 text-center p-4">
+              <div className="highlight__item__title text-white font-bold text-2xl ">
+                <h4>Consitency</h4>
+              </div>
+              <hr />
+              <div className="highlight__item__desc text-white">
+                <span>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Porro, eveniet?
+                </span>
+              </div>
             </div>
           </div>
         </div>
